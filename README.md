@@ -20,3 +20,5 @@ The phase 1 folder structure is as follows
            out.json consists of twitter data in the form of json objects.\
            Within urls.txt we have extracted hashtags,urls,expanded_urls and location of each tweet similar to the above hadoop src folder until now.\
            And finally had to run this cmd ($SPARK_HOME/bin/spark-submit run-example JavaWordCount "sourcepath") to get the word count output stored in wordCountSpark.txt file.\
+
+*Note:- Couldn't upload the tweets json object file used to extract url mentioned as "out.json" in the description.*
